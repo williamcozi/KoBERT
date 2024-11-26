@@ -13,5 +13,7 @@ KoBERT 모델을 통한 업종 추천 정확도 테스트
 
 ## KoBERT Model
 
+Hugging Face의 kykim/bert-kor-base KoBERT 사전 학습 모델을 사용 (https://huggingface.co/kykim/bert-kor-base)
+
 - tokenizer = BertTokenizer.from_pretrained('kykim/bert-kor-base')
 - bert_model = BertModel.from_pretrained('kykim/bert-kor-base')

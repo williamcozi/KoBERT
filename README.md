@@ -10,3 +10,8 @@ KoBERT 모델을 통한 업종 추천 정확도 테스트
 *************************
 3. **KoBERT_model_test.bin**: 'kykim/bert-kor-base' 사전 학습(pre-trained) 모델을 사용해 train_data.xlsx을 학습시킨 모델 (bin 형식의 파일)
 
+
+## KoBERT Model
+
+- tokenizer = BertTokenizer.from_pretrained('kykim/bert-kor-base')
+- bert_model = BertModel.from_pretrained('kykim/bert-kor-base')
